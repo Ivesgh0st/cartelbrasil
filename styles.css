@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1a1a1a, #000);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.btn-whatsapp {
+    background: none;
+    border: 2px solid #cfa96d;
+    color: #cfa96d;
+    padding: 18px 40px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.btn-whatsapp:hover {
+    background: #cfa96d;
+    color: #000;
+}
+
+.marcas {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.logo-marcas img {
+    width: 400px;
+    margin: 15px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.logo-marcas img:hover {
+    opacity: 1;
+}
+
+.sobre {
+    text-align: center;
+    padding: 40px 15px;
+    font-size: 16px;
+}
+
+.botao {
+    text-align: center;
+    margin: 80px 0;
+}
+.footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 12px;
+    opacity: 0.7;
+}
