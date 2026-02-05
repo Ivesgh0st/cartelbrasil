@@ -27,9 +27,9 @@ body {
     background: none;
     border: 2px solid #cfa96d;
     color: #cfa96d;
-    padding: 18px 40px;
+    padding: 27px 40px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 26px;
     letter-spacing: 2px;
     transition: 0.3s;
 }
@@ -61,13 +61,23 @@ body {
     font-size: 16px;
 }
 
+.infos{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background: #1d1d1d;
+  padding: 30px;
+  width: 1800px;
+  border-radius: 5px;    
+  box-shadow: 0 2px 25px rgb(78, 78, 78); 
+}
+
 .botao {
     text-align: center;
-    margin: 80px 0;
+    margin: 90px 0;
 }
 .footer {
-    text-align: center;
-    padding: 25px;
-    font-size: 12px;
-    opacity: 0.7;
+color: #cfa96d;
+text-align: center;
+margin: 120px 0;
 }
